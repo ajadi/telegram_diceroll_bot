@@ -1,8 +1,8 @@
 {
-    "start": "Привет! Я бот для броска кубиков D&D и других систем. Используйте команду /roll или /roll XdY(+Z), чтобы бросить кубики. Например, /roll 2d20+5. Также можно использовать несколько кубиков: /roll 2d6+1d8+3.",
-    "help": "Используйте команду /roll XdY(+Z), чтобы бросить кубики. Например, /roll 2d20+5. По умолчанию бросается один кубик d20. Также можно использовать несколько кубиков: /roll 2d6+1d8+3.",
-    "invalid_format": "Неправильный формат команды. Используйте /roll XdY(+Z), где X и Y - числа, а Z - модификатор.",
-    "error": "Произошла ошибка при обработке вашей команды. Пожалуйста, попробуйте снова.",
-    "roll_result": "Вы бросили {dice_expression}: {results_str}{modifier_str} (Итог: {total})",
-    "log_error": "Ошибка при обработке команды /roll"
+    "start": "Hello! I am a bot for rolling dice in D&D and other systems. Use the command /roll or /roll XdY(+Z) to roll the dice. For example, /roll 2d20+5. You can also use multiple dice: /roll 2d6+1d8+3.",
+    "help": "Use the command /roll XdY(+Z) to roll the dice. For example, /roll 2d20+5. By default, a single d20 die is rolled. You can also use multiple dice: /roll 2d6+1d8+3.",
+    "invalid_format": "Invalid command format. Use /roll XdY(+Z), where X and Y are numbers, and Z is a modifier.",
+    "error": "An error occurred while processing your command. Please try again.",
+    "roll_result": "You rolled {dice_expression}: {results_str}{modifier_str} (Total: {total})",
+    "log_error": "Error processing /roll command"
 }
