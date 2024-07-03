@@ -1,0 +1,12 @@
+[Unit]
+Description=Telegram DnD Bot
+After=network.target
+
+[Service]
+User=your_username
+WorkingDirectory=/home/your_username/telegram_diceroll_bot
+ExecStart=/home/your_username/telegram_diceroll_bot/venv/bin/python /home/your_username/telegram_diceroll_bot/telegram_diceroll_bot.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
